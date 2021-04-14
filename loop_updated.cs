@@ -64,6 +64,24 @@ class LoopsDemo
             Console.WriteLine(chr);
         }
           
-      
+      // Code for feature 1
+	  
+	   Console.WriteLine("########## Use foreach ######");
+        
+        foreach(char chr in arr_char)
+        {
+            Console.WriteLine(chr);
+        }
+		
+		
+		// Code for feature 2
+	  
+	   Console.WriteLine("########## Use foreach ######");
+        
+        foreach(char chr in arr_char)
+        {
+            Console.WriteLine(chr);
+        }
+	  
     }
 }
