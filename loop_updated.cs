@@ -49,6 +49,20 @@ class LoopsDemo
         {
             Console.WriteLine(chr);
         }
+		
+		 char[] arr_char = { 's', 'y', 'd', 'n', 'e', 'y' }; // [0 1 2 3 4 5] arr_char.Length = 6
+
+        for (int k = 0; k < arr_char.Length; k++)
+        {
+            Console.WriteLine(arr_char[k]);
+        }
+
+        Console.WriteLine("########## Use foreach ######");
+        
+        foreach(char chr in arr_char)
+        {
+            Console.WriteLine(chr);
+        }
           
       
     }
